@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nanodream.ai - Cinematic Production Studio</title>
+    <meta name="description"
+        content="Cinematic production for brands and creators who refuse to look ordinary — engineered for attention, emotion, and measurable impact.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Premium Enhancements UI -->
+    <div id="letterbox-top"></div>
+    <div id="letterbox-bottom"></div>
+    <div id="scroll-progress"></div>
+    <div id="cursor-dot"></div>
+    <div id="cursor-trail"></div>
+    <div id="film-grain"></div>
+
+    <!-- Deep Space Atmosphere System -->
+    <div id="horizon-glow"></div>
+    <div id="cosmic-dust">
+        <div class="dust-lane lane-1"></div>
+        <div class="dust-lane lane-2"></div>
+        <div class="dust-lane lane-3"></div>
+    </div>
+    <div id="nebula-clouds">
+        <div class="nebula-blob blob-1"></div>
+        <div class="nebula-blob blob-2"></div>
+        <div class="nebula-blob blob-3"></div>
+        <div class="nebula-blob blob-4"></div>
+        <div class="nebula-blob blob-5"></div>
+    </div>
+    <div id="orbital-ring"></div>
+    <div id="shooting-star-container"></div>
+    <canvas id="starchamber"></canvas>
+    <canvas id="embers-canvas"></canvas>
+    <div id="galaxy-mist"></div>
+
+    <header class="site-header">
+        <div class="brand-logo">Nanodream<span class="ai-suffix">.ai</span></div>
+        <a href="archive.html" class="header-cta">VIEW GALLERY</a>
+    </header>
+
+    <main class="content-wrapper">
+        <!-- Section 1: Hero -->
+        <section class="hero-section" id="hero">
+            <div class="hero-content">
+                <h1 class="headline-stacked">
+                    <div class="hero-light-sweep"></div>
+                    <span class="line">Turn</span>
+                    <span class="morphing-container">
+                        <span id="morphing-text" class="morph-word gradient-text">Vision</span>
+                    </span>
+                    <span class="line">Into Reality.</span>
+                </h1>
+
+                <p class="hero-subheadline">
+                    Cinematic production for brands and creators who refuse to look ordinary&nbsp;— engineered for
+                    attention, emotion, and measurable impact.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#brands" class="btn btn-primary glow-effect">For Brands — Create Ads</a>
+                    <a href="#individuals" class="btn btn-secondary">For Individuals — Create Scene</a>
+                </div>
+            </div>
+        </section>
+
+        </section>
+
+        <!-- Section 2: Choose Your Experience -->
+        <section class="choose-experience" id="experience">
+            <h2 class="section-title">Choose Your Experience.</h2>
+
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="glass-card" id="brands">
+                    <h3 class="card-title">Cinematic Ads Built to Sell.</h3>
+                    <p class="card-text">High-impact video campaigns engineered for paid traffic, product launches, and
+                        brand dominance.</p>
+                    <ul class="card-bullets">
+                        <li>Performance-driven scripting</li>
+                        <li>Platform-optimized formats</li>
+                        <li>48-hour turnaround</li>
+                        <li>Scroll-stopping hooks</li>
+                    </ul>
+                    <button class="btn btn-primary compact w-100 trigger-intake">Request Brand Ad</button>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="glass-card" id="individuals">
+                    <h3 class="card-title">Become the Main Character.</h3>
+                    <p class="card-text">Step into your own cinematic universe — from romance to action to luxury
+                        fantasy.</p>
+                    <ul class="card-bullets">
+                        <li>Custom story scripts</li>
+                        <li>Personalized scenes</li>
+                        <li>Social-ready formats</li>
+                        <li>Premium visual direction</li>
+                    </ul>
+                    <button class="btn btn-primary compact w-100 trigger-intake">Create My Scene</button>
+                </div>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- Section 3: Proven Performance -->
+        <section class="performance-section" id="performance">
+            <div class="section-header">
+                <h2 class="section-title">Proven Performance.</h2>
+            </div>
+            <div class="metrics-grid">
+                <div class="metric">
+                    <span class="metric-number" data-target="30" data-suffix="+">0</span>
+                    <span class="metric-label">Businesses Scaled</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-number" data-target="200" data-suffix="%">0</span>
+                    <span class="metric-label">Average Growth</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-number" data-target="4" data-suffix="x">0</span>
+                    <span class="metric-label">Average ROI</span>
+                </div>
+            </div>
+            <div class="section-header">
+                <p class="performance-subtext">Performance isn't accidental. It's engineered.</p>
+            </div>
+        </section>
+
+        <!-- Section: Testimonials -->
+        <hr class="section-divider">
+        <section class="testimonials-section">
+            <div class="testimonial-container">
+                <blockquote id="testimonial-quote">"The level of cinematic quality and emotional resonance they bring is
+                    simply unmatched. It feels like a movie, not an ad."</blockquote>
+                <cite id="testimonial-author">— <span class="author-name">Sarah Jenkins</span>, <span
+                        class="author-title">CMO at Lumina</span></cite>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- Section 4: Cinematic Archive -->
+        <section class="archive-section" id="archive">
+            <div class="section-header">
+                <h2 class="section-title">Cinematic Archive.</h2>
+                <p class="section-subtext">A curated vault of campaigns and cinematic story experiences.</p>
+            </div>
+
+            <div class="archive-preview-grid">
+                <div class="archive-card vimeo-embed-item">
+                    <div class="vimeo-container" style="padding-top:56.25%;">
+                        <iframe src="https://player.vimeo.com/video/1166649949?badge=0&amp;autopause=0" frameborder="0"
+                            allow="autoplay; fullscreen"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                    </div>
+                </div>
+                <div class="archive-card vimeo-embed-item">
+                    <div class="vimeo-container" style="padding-top:56.25%;">
+                        <iframe src="https://player.vimeo.com/video/1166650022?badge=0&amp;autopause=0" frameborder="0"
+                            allow="autoplay; fullscreen"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                    </div>
+                </div>
+                <div class="archive-card vimeo-embed-item">
+                    <div class="vimeo-container" style="padding-top:56.25%;">
+                        <iframe src="https://player.vimeo.com/video/1166660830?badge=0&amp;autopause=0" frameborder="0"
+                            allow="autoplay; fullscreen"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="archive-cta-wrapper" style="text-align:center; margin-top:3rem;">
+                <a href="archive.html" class="btn btn-ghost">VIEW ALL WORKS</a>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- Section 5: How It Works -->
+        <section class="how-it-works-section" id="process">
+            <h2 class="section-title">How It Works.</h2>
+            <div class="steps-container">
+                <div class="steps-timeline-line"></div>
+
+                <div class="step fade-in">
+                    <div class="step-number">01</div>
+                    <h3 class="step-title">Brief</h3>
+                    <p class="step-desc">Share your vision or product.</p>
+                </div>
+                <div class="step fade-in">
+                    <div class="step-number">02</div>
+                    <h3 class="step-title">Concept</h3>
+                    <p class="step-desc">We craft the cinematic direction.</p>
+                </div>
+                <div class="step fade-in">
+                    <div class="step-number">03</div>
+                    <h3 class="step-title">Production</h3>
+                    <p class="step-desc">We create your visual experience.</p>
+                </div>
+                <div class="step fade-in">
+                    <div class="step-number">04</div>
+                    <h3 class="step-title">Delivery</h3>
+                    <p class="step-desc">Delivered ready to launch.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <!-- Final CTA -->
+        <footer class="final-cta">
+            <div class="cta-glow"></div>
+            <h2 class="cta-headline">Ready to Turn Your Idea Into Reality?</h2>
+            <p class="cta-subtext">Let's create something cinematic.</p>
+            <a href="#" class="btn btn-primary glow-effect lg">Start Your Project</a>
+        </footer>
+    </main>
+
+    <!-- Video Modal -->
+    <div class="video-modal" id="videoModal">
+        <button class="close-modal">&times;</button>
+        <div class="modal-content">
+            <video id="modalVideo" controls playsinline>
+                <source src="" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- Ambient Sound Toggle -->
+    <button id="sound-toggle" aria-label="Toggle ambient sound">
+        <div class="sound-visualizer">
+            <div class="sound-bar"></div>
+            <div class="sound-bar"></div>
+            <div class="sound-bar"></div>
+            <div class="sound-bar"></div>
+        </div>
+    </button>
+
+    <!-- Blur Filter for Morphing text -->
+    <svg style="display:none;">
+        <defs>
+            <filter id="threshold">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" result="blur" class="morph-blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                    result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+            </filter>
+        </defs>
+    </svg>
+
+    <!-- Cinematic Intake Modal -->
+    <div class="intake-modal" id="intake-modal">
+        <div class="intake-overlay close-intake-trigger"></div>
+        <div class="intake-content">
+            <button class="close-intake close-intake-trigger">✕</button>
+
+            <div class="intake-header">
+                <div class="step-counter" id="step-counter">Step 1 of 4</div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar-fill" id="intake-progress"></div>
+                </div>
+            </div>
+
+            <div class="intake-body">
+                <form id="intake-form" action="https://formspree.io/f/mojnnrna" method="POST">
+                    <!-- Hidden fields for non-input selections -->
+                    <input type="hidden" name="project_type" id="hidden-project-type">
+                    <input type="hidden" name="timeline" id="hidden-timeline">
+
+                    <!-- Step 1: Project Type -->
+                    <div class="intake-step active" id="step-1">
+                        <h2 class="intake-title">What are we creating?</h2>
+                        <div class="selectable-cards-grid">
+                            <div class="selectable-card" data-type="Brand Ad">
+                                <h3>Brand Ad</h3>
+                                <p>Cinematic ad engineered for paid traffic and conversions.</p>
+                            </div>
+                            <div class="selectable-card" data-type="Personal Scene">
+                                <h3>Personal Scene</h3>
+                                <p>Step into your own cinematic universe.</p>
+                            </div>
+                        </div>
+                        <div id="type-error" class="form-error">Please select a project type</div>
+                    </div>
+
+                    <!-- Step 2: Vision -->
+                    <div class="intake-step" id="step-2">
+                        <h2 class="intake-title">Describe your vision</h2>
+                        <div class="form-group">
+                            <textarea id="vision-text" name="vision"
+                                placeholder="Tell us about your idea, product, or story..." rows="4"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="vision-links" name="references"
+                                placeholder="Reference links (Instagram, Pinterest, YouTube) - Optional">
+                        </div>
+                        <button type="button" class="btn btn-primary btn-next" data-next="3">Next</button>
+                    </div>
+
+                    <!-- Step 3: Timeline -->
+                    <div class="intake-step" id="step-3">
+                        <h2 class="intake-title">When do you need it?</h2>
+                        <div class="pill-group">
+                            <div class="option-pill" data-timeline="Rush">⚡ Rush (24 hours)</div>
+                            <div class="option-pill" data-timeline="Standard">📅 Standard (3–7 days)</div>
+                            <div class="option-pill" data-timeline="Flexible">🎬 Flexible</div>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Contact -->
+                    <div class="intake-step" id="step-4">
+                        <h2 class="intake-title">Where should we reach you?</h2>
+                        <div class="form-group">
+                            <input type="text" id="contact-name" name="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contact-email" name="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="contact-phone" name="contact_method"
+                                placeholder="WhatsApp or Telegram number (Optional)">
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submit-brief">Submit Brief</button>
+                    </div>
+                </form>
+
+                <!-- Success State -->
+                <div class="intake-step" id="step-success">
+                    <div class="success-icon">
+                        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                            <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none" />
+                            <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                        </svg>
+                    </div>
+                    <h2 class="intake-title">Your brief has been received.</h2>
+                    <p class="intake-desc">We'll reach out within 24 hours with a cinematic concept tailored to your
+                        vision.</p>
+                    <div class="success-actions">
+                        <a href="https://t.me/avoxmanager?text=Hi%20NanoDream,%20I%27d%20like%20to%20discuss%20a%20cinematic%20project.%20Can%20you%20share%20the%20next%20steps%3F"
+                            target="_blank" class="btn btn-primary"
+                            style="display:block;width:100%;text-align:center;">Message via Telegram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="custom-cursor" id="custom-cursor"></div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
