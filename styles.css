@@ -1797,6 +1797,52 @@ h3 {
     margin-top: 2.5rem;
 }
 
+/* --- Global Site Footer --- */
+.site-footer {
+    width: 100%;
+    padding: 2rem 5vw;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    background: transparent;
+    z-index: 10;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-link {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    margin-top: 1rem;
+}
+
 /* Responsive constraints */
 @media (max-width: 1024px) {
     .glass-card {
